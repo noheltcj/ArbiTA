@@ -34,7 +34,6 @@ buildscript {
 subprojects {
     apply {
         plugin 'kotlin'
-        plugin 'java'
         plugin 'maven-publish'
     }
 

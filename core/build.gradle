@@ -4,11 +4,6 @@ buildscript {
     }
 }
 
-jar {
-    baseName = artifact_id
-    version = shared_version
-}
-
 compileKotlin {
     kotlinOptions.jvmTarget = jvm_target
 }
