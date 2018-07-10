@@ -1,0 +1,13 @@
+buildscript {
+    ext {
+        artifact_id = 'core'
+    }
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = jvm_target
+}
+
+compileTestKotlin {
+    kotlinOptions.jvmTarget = jvm_target
+}
